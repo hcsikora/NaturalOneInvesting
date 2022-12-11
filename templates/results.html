@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<h1>Results</h1>
+
+<p>Our predicted worst case for {{ticker}} is a {{prediction}}% drop in the price of the stock. Keep in mind this is an estimate of the worst in 1 in 20 outcomes, or 5%. There is always the possiblity of losing more.</p>
+
+<div class="col-sm-4"><img style="max-height:520px" src="static/history.png" /></div>
+
+
+{% endblock %}

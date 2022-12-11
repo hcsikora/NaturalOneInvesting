@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<form action = '#' method="post">
+  <div class="form-group">
+    <label>Ticker</label>
+    <input type="text" class="form-control" placeholder="MSFT" minlength='1' maxlength="10" size = "12" name = 'Ticker'>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
